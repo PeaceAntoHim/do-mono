@@ -1,0 +1,39 @@
+# Git
+.git
+.gitignore
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Laravel
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.yml
+Homestead.json
+Homestead.yaml
+
+# IDE
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Other
+/storage/*.key
+/storage/app/public/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# SSL
+/ssl 
